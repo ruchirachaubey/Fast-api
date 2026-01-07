@@ -1,20 +1,45 @@
-FastAPI CRUD Practice Project
+⭐ FastAPI CRUD Practice Project ⭐
+📌 Overview
 
-This is a simple FastAPI practice project that demonstrates CRUD operations (Create, Read, Update, Delete) on demo patient data.
+A simple practice project that demonstrates CRUD operations
+(Create, Read, Update, Delete) on demo patient data using FastAPI.
 
-Features
+✨ Key Features
 
-CRUD APIs built using FastAPI
+⭐ CRUD operations with FastAPI
+⭐ Data validation using Pydantic
+⭐ Interactive API documentation using Swagger UI
+⭐ APIs can be viewed & tested via /docs URL
 
-Patient data modeled using Pydantic
+🛠 Tech Stack
 
-Interactive API testing using Swagger UI
+🔹 FastAPI
+🔹 Pydantic
+🔹 JSON (for demo data storage)
+🔹 Swagger UI
 
-APIs can be easily checked and tested via the /docs URL
-
-How to Run
+▶️ Run the Project
 uvicorn main:app --reload
 
+🌐 API Testing (Swagger UI)
+
+Once the server is running, open:
+
+http://127.0.0.1:8000/docs
+
+
+✅ Test all Create, Read, Update, Delete APIs directly from the browser.
+
+🎯 Purpose
+
+✔ Learn FastAPI fundamentals
+✔ Practice CRUD APIs
+✔ Understand request validation
+✔ Get hands-on with Swagger UI
+
+🚀 Status
+
+🧪 Practice Project / Learning Purpose
 API Docs
 
 After starting the server, open:
